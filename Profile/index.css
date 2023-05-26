@@ -1,0 +1,222 @@
+.profile-child {
+  position: absolute;
+  top: 769px;
+  left: 0;
+  background-color: rgba(148, 139, 160, 0.39);
+  border: 1px solid #948ba0;
+  box-sizing: border-box;
+  width: 390px;
+  height: 76px;
+}
+.vector-icon {
+  position: absolute;
+  height: 4.86%;
+  width: 8.97%;
+  top: 93.48%;
+  right: 20.26%;
+  bottom: 1.66%;
+  left: 70.77%;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+}
+.home-fill0-wght400-grad0-opsz4-icon,
+.vector-icon1 {
+  position: absolute;
+  top: 785px;
+  left: 61px;
+  width: 50px;
+  height: 50px;
+  overflow: hidden;
+}
+.vector-icon1 {
+  height: 4.03%;
+  width: 12.31%;
+  top: 94.19%;
+  right: 43.85%;
+  bottom: 1.78%;
+  left: 43.85%;
+  max-width: 100%;
+  max-height: 100%;
+}
+.profile-inner,
+.profile-item,
+.rectangle-div {
+  position: absolute;
+  top: 473px;
+  left: 21px;
+  border-radius: var(--br-4xl);
+  background-color: var(--color-thistle-100);
+  width: 347px;
+  height: 41px;
+}
+.profile-inner,
+.rectangle-div {
+  top: 560px;
+}
+.rectangle-div {
+  top: 647px;
+}
+.vector-icon2 {
+  position: absolute;
+  height: 2.13%;
+  width: 3.59%;
+  top: 57.35%;
+  right: 13.33%;
+  bottom: 40.52%;
+  left: 83.08%;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+}
+.change-password {
+  position: absolute;
+  top: 482px;
+  left: 78px;
+}
+.vector-icon3,
+.vector-icon4 {
+  position: absolute;
+  height: 2.13%;
+  width: 3.59%;
+  top: 67.42%;
+  right: 13.33%;
+  bottom: 30.45%;
+  left: 83.08%;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+}
+.vector-icon4 {
+  top: 77.96%;
+  bottom: 19.91%;
+}
+.address,
+.vector-icon5,
+.your-activity {
+  position: absolute;
+  top: 567px;
+  left: 78px;
+}
+.address,
+.vector-icon5 {
+  top: 657px;
+}
+.vector-icon5 {
+  height: 2.61%;
+  width: 4.36%;
+  top: 57.11%;
+  right: 86.92%;
+  bottom: 40.28%;
+  left: 8.72%;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+}
+.rowing-fill0-wght400-grad0-ops-icon,
+.vector-icon6 {
+  position: absolute;
+  top: 566px;
+  left: 33px;
+  width: 25px;
+  height: 25px;
+  overflow: hidden;
+}
+.vector-icon6 {
+  height: 2.84%;
+  width: 7.44%;
+  top: 77.84%;
+  right: 84.36%;
+  bottom: 19.31%;
+  left: 8.21%;
+  max-width: 100%;
+  max-height: 100%;
+}
+.profile-child1 {
+  position: absolute;
+  top: 386px;
+  left: 21px;
+  border-radius: var(--br-4xl);
+  background-color: var(--color-thistle-100);
+  width: 347px;
+  height: 41px;
+}
+.edit-profile,
+.vector-icon7 {
+  position: absolute;
+  top: 396px;
+  left: 86px;
+}
+.vector-icon7 {
+  height: 2.13%;
+  width: 3.59%;
+  top: 47.27%;
+  right: 13.33%;
+  bottom: 50.59%;
+  left: 83.08%;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+}
+.edit-note-fill0-wght400-grad0-icon {
+  position: absolute;
+  top: 390px;
+  left: 37px;
+  width: 31px;
+  height: 30px;
+  overflow: hidden;
+}
+.profile-child2 {
+  position: absolute;
+  top: -3px;
+  left: 0;
+  background-color: rgba(204, 192, 221, 0.43);
+  width: 390px;
+  height: 318px;
+}
+.logo-removebg-preview-1-icon {
+  position: absolute;
+  top: 18px;
+  left: 17px;
+  width: 66px;
+  height: 93px;
+  object-fit: cover;
+}
+.handyhome {
+  position: absolute;
+  top: 64px;
+  left: 78px;
+  font-size: 32px;
+  font-family: var(--font-limelight);
+  color: var(--color-slategray);
+}
+.vector-icon8 {
+  position: absolute;
+  height: 10.9%;
+  width: 26.67%;
+  top: 18.48%;
+  right: 37.95%;
+  bottom: 70.62%;
+  left: 35.38%;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+}
+.username {
+  position: absolute;
+  top: 261px;
+  left: 138px;
+  font-size: 20px;
+  color: var(--color-slategray);
+}
+.profile {
+  position: relative;
+  background-color: #fff;
+  width: 100%;
+  height: 844px;
+  overflow: hidden;
+  text-align: left;
+  font-size: var(--font-size-base);
+  color: var(--color-dimgray);
+  font-family: var(--font-poppins);
+}

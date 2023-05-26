@@ -1,0 +1,21 @@
+body {
+  margin: 0;
+  line-height: normal;
+}
+
+:root {
+  /* fonts */
+  --font-poppins: Poppins;
+  --font-limelight: Limelight;
+
+  /* font sizes */
+  --font-size-base: 16px;
+
+  /* Colors */
+  --color-slategray: #685c79;
+  --color-thistle-100: rgba(204, 192, 221, 0.67);
+  --color-dimgray: #544a4a;
+
+  /* border radiuses */
+  --br-4xl: 23px;
+}
