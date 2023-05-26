@@ -5,12 +5,10 @@ body {
 
 :root {
   /* fonts */
+  --font-poppins: Poppins;
   --font-port-lligat-slab: "Port Lligat Slab";
-  --font-aleo: Aleo;
+  --font-alegreya-sc: "Alegreya SC";
   --font-limelight: Limelight;
-
-  /* font sizes */
-  --font-size-13xl: 32px;
 
   /* Colors */
   --color-slategray: #685c79;

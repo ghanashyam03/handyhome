@@ -1,4 +1,4 @@
-.laundry2-child {
+.laundry3-child {
   position: absolute;
   top: 769px;
   left: 0;
@@ -52,38 +52,61 @@
   max-width: 100%;
   max-height: 100%;
 }
+.laundry3-item {
+  position: absolute;
+  top: 577px;
+  left: 390px;
+  width: 390px;
+  height: 200px;
+  transform: rotate(180deg);
+  transform-origin: 0 0;
+}
 .confirmed,
 .service-team-arriving {
   position: absolute;
   display: inline-block;
 }
 .confirmed {
-  top: 320px;
-  left: 103px;
-  font-weight: 700;
-  font-family: var(--font-aleo);
+  top: 288px;
+  left: 86px;
+  font-size: 36px;
+  font-family: var(--font-alegreya-sc);
   color: #000;
-  width: 178px;
-  height: 59px;
+  width: 229px;
+  height: 87px;
   text-shadow: 0 8px 4px rgba(0, 0, 0, 0.3);
   -webkit-text-stroke: 1px #685c79;
 }
 .service-team-arriving {
-  top: 379px;
-  left: 15px;
+  top: 422px;
+  left: 7px;
   font-size: 18px;
   font-family: var(--font-port-lligat-slab);
   width: 375px;
   height: 162px;
 }
-.laundry2 {
+.contact-no {
+  margin: 0;
+}
+.contact-no-6235124425-container {
+  position: absolute;
+  top: 662px;
+  left: 16px;
+  font-size: 16px;
+  font-family: var(--font-poppins);
+  white-space: pre-wrap;
+  display: inline-block;
+  width: 244px;
+  height: 54px;
+}
+.laundry3 {
   position: relative;
   background-color: #fff;
   width: 100%;
   height: 844px;
   overflow: hidden;
   text-align: left;
-  font-size: var(--font-size-13xl);
+  font-size: 32px;
   color: var(--color-slategray);
   font-family: var(--font-limelight);
 }
