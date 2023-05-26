@@ -1,0 +1,233 @@
+.pexels-jan-kopiva-3972703-2-icon {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 390px;
+    height: 306px;
+    object-fit: cover;
+  }
+  .handyhome {
+    position: absolute;
+    top: 73px;
+    left: 82px;
+    font-size: 32px;
+    font-family: var(--font-limelight);
+    color: #ccc0dd;
+  }
+  .logo-removebg-preview-1-icon {
+    position: absolute;
+    top: 26px;
+    left: 16px;
+    width: 66px;
+    height: 93px;
+    object-fit: cover;
+  }
+  .home-child {
+    position: absolute;
+    top: 768px;
+    left: 0;
+    background-color: rgba(148, 139, 160, 0.39);
+    border: 1px solid #948ba0;
+    box-sizing: border-box;
+    width: 390px;
+    height: 76px;
+  }
+  .vector-icon {
+    position: absolute;
+    height: 4.86%;
+    width: 8.97%;
+    top: 93.13%;
+    right: 17.44%;
+    bottom: 2.01%;
+    left: 73.59%;
+    max-width: 100%;
+    overflow: hidden;
+    max-height: 100%;
+  }
+  .home-fill0-wght400-grad0-opsz4-icon,
+  .vector-icon1 {
+    position: absolute;
+    top: 781px;
+    left: 67px;
+    width: 50px;
+    height: 50px;
+    overflow: hidden;
+  }
+  .vector-icon1 {
+    height: 4.03%;
+    width: 12.31%;
+    top: 93.96%;
+    right: 44.1%;
+    bottom: 2.01%;
+    left: 43.59%;
+    max-width: 100%;
+    max-height: 100%;
+  }
+  .see-all {
+    position: absolute;
+    top: 729px;
+    left: 335px;
+    font-size: 12px;
+    font-family: var(--font-poppins);
+    color: #000;
+  }
+  .ellipse-div,
+  .home-child1,
+  .home-child2,
+  .home-child3,
+  .home-inner,
+  .home-item {
+    position: absolute;
+    top: 360px;
+    left: 67px;
+    border-radius: 50%;
+    background-color: var(--color-lightslategray-100);
+    width: 75px;
+    height: 74px;
+  }
+  .ellipse-div,
+  .home-child1,
+  .home-child2,
+  .home-child3,
+  .home-inner {
+    top: 482px;
+    left: 71px;
+  }
+  .ellipse-div,
+  .home-child1,
+  .home-child2,
+  .home-child3 {
+    top: 613px;
+  }
+  .home-child1,
+  .home-child2,
+  .home-child3 {
+    top: 360px;
+    left: 230px;
+  }
+  .home-child2,
+  .home-child3 {
+    top: 482px;
+  }
+  .home-child3 {
+    top: 613px;
+  }
+  .cleaning,
+  .laundry,
+  .painting,
+  .waste {
+    position: absolute;
+    top: 434px;
+    left: 69px;
+  }
+  .laundry,
+  .painting,
+  .waste {
+    left: 241px;
+  }
+  .painting,
+  .waste {
+    top: 562px;
+    left: 80px;
+  }
+  .painting {
+    left: 241px;
+  }
+  .electrical-work,
+  .plumbing {
+    position: absolute;
+    top: 689px;
+    left: 71px;
+  }
+  .electrical-work {
+    top: 687px;
+    left: 228px;
+  }
+  .vector-icon2 {
+    height: 4.98%;
+    width: 9.23%;
+    top: 44.55%;
+    right: 68.46%;
+    bottom: 50.47%;
+    left: 22.31%;
+    max-width: 100%;
+    max-height: 100%;
+  }
+  .vector-icon2,
+  .vector-icon3,
+  .vector-icon4 {
+    position: absolute;
+    overflow: hidden;
+  }
+  .vector-icon3 {
+    height: 4.98%;
+    width: 9.23%;
+    top: 44.55%;
+    right: 26.41%;
+    bottom: 50.47%;
+    left: 64.36%;
+    max-width: 100%;
+    max-height: 100%;
+  }
+  .vector-icon4 {
+    top: 58.65%;
+    right: 67.44%;
+    bottom: 36.37%;
+    left: 23.33%;
+  }
+  .vector-icon4,
+  .vector-icon5,
+  .vector-icon6 {
+    height: 4.98%;
+    width: 9.23%;
+    max-width: 100%;
+    max-height: 100%;
+  }
+  .vector-icon5 {
+    position: absolute;
+    top: 59.6%;
+    right: 26.67%;
+    bottom: 35.43%;
+    left: 64.1%;
+    overflow: hidden;
+  }
+  .vector-icon6 {
+    top: 74.53%;
+    right: 67.44%;
+    bottom: 20.5%;
+    left: 23.33%;
+  }
+  .frame-div,
+  .vector-icon6,
+  .vector-icon7 {
+    position: absolute;
+    overflow: hidden;
+  }
+  .vector-icon7 {
+    height: 4.98%;
+    width: 9.23%;
+    top: 74.53%;
+    right: 26.67%;
+    bottom: 20.5%;
+    left: 64.1%;
+    max-width: 100%;
+    max-height: 100%;
+  }
+  .frame-div {
+    top: 395px;
+    left: 26px;
+    width: 100px;
+    height: 100px;
+  }
+  .home {
+    position: relative;
+    background-color: #fff;
+    width: 100%;
+    height: 844px;
+    overflow: hidden;
+    text-align: left;
+    font-size: var(--font-size-base);
+    color: var(--color-slategray);
+    font-family: var(--font-milonga);
+  }
+  

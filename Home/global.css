@@ -1,0 +1,18 @@
+body {
+    margin: 0;
+    line-height: normal;
+  }
+  
+  :root {
+    /* fonts */
+    --font-milonga: Milonga;
+    --font-poppins: Poppins;
+    --font-limelight: Limelight;
+  
+    /* font sizes */
+    --font-size-base: 16px;
+  
+    /* Colors */
+    --color-slategray: #685c79;
+    --color-lightslategray-100: rgba(148, 139, 160, 0.65);
+  }
