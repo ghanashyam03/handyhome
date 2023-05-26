@@ -1,0 +1,89 @@
+.laundry2-child {
+  position: absolute;
+  top: 769px;
+  left: 0;
+  background-color: rgba(148, 139, 160, 0.39);
+  border: 1px solid #948ba0;
+  box-sizing: border-box;
+  width: 390px;
+  height: 76px;
+}
+.logo-removebg-preview-1-icon {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 66px;
+  height: 93px;
+  object-fit: cover;
+}
+.handyhome,
+.vector-icon {
+  position: absolute;
+  top: 46px;
+  left: 66px;
+}
+.vector-icon {
+  height: 4.86%;
+  width: 8.97%;
+  top: 93.48%;
+  right: 20.26%;
+  bottom: 1.66%;
+  left: 70.77%;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+}
+.home-fill0-wght400-grad0-opsz4-icon,
+.vector-icon1 {
+  position: absolute;
+  top: 785px;
+  left: 61px;
+  width: 50px;
+  height: 50px;
+  overflow: hidden;
+}
+.vector-icon1 {
+  height: 4.03%;
+  width: 12.31%;
+  top: 94.19%;
+  right: 43.85%;
+  bottom: 1.78%;
+  left: 43.85%;
+  max-width: 100%;
+  max-height: 100%;
+}
+.confirmed,
+.service-team-arriving {
+  position: absolute;
+  display: inline-block;
+}
+.confirmed {
+  top: 320px;
+  left: 103px;
+  font-weight: 700;
+  font-family: var(--font-aleo);
+  color: #000;
+  width: 178px;
+  height: 59px;
+  text-shadow: 0 8px 4px rgba(0, 0, 0, 0.3);
+  -webkit-text-stroke: 1px #685c79;
+}
+.service-team-arriving {
+  top: 379px;
+  left: 15px;
+  font-size: 18px;
+  font-family: var(--font-port-lligat-slab);
+  width: 375px;
+  height: 162px;
+}
+.laundry2 {
+  position: relative;
+  background-color: #fff;
+  width: 100%;
+  height: 844px;
+  overflow: hidden;
+  text-align: left;
+  font-size: var(--font-size-13xl);
+  color: var(--color-slategray);
+  font-family: var(--font-limelight);
+}

@@ -1,0 +1,17 @@
+body {
+  margin: 0;
+  line-height: normal;
+}
+
+:root {
+  /* fonts */
+  --font-port-lligat-slab: "Port Lligat Slab";
+  --font-aleo: Aleo;
+  --font-limelight: Limelight;
+
+  /* font sizes */
+  --font-size-13xl: 32px;
+
+  /* Colors */
+  --color-slategray: #685c79;
+}
