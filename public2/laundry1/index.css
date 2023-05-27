@@ -1,0 +1,243 @@
+.laundry-child {
+  position: absolute;
+  top: 760px;
+  left: -1px;
+  background-color: rgba(148, 139, 160, 0.39);
+  border: 1px solid #948ba0;
+  box-sizing: border-box;
+  width: 390px;
+  height: 84px;
+}
+.logo-removebg-preview-1-icon {
+  position: absolute;
+  top: 6px;
+  left: 9px;
+  width: 66px;
+  height: 93px;
+  object-fit: cover;
+}
+.handyhome {
+  position: absolute;
+  top: 52px;
+  left: 70px;
+  font-size: 32px;
+  font-family: var(--font-limelight);
+  color: var(--color-slategray-100);
+}
+.laundry-child1,
+.required {
+  position: absolute;
+  top: 282px;
+}
+.laundry-child1 {
+  left: 1px;
+  font-size: var(--font-size-lg);
+  font-family: var(--font-yatra-one);
+  color: var(--color-slategray-300);
+  display: inline-block;
+  width: 170px;
+  height: 24px;
+}
+.required {
+  left: 75px;
+  font-size: var(--font-size-base);
+  font-weight: 500;
+  color: var(--color-slategray-200);
+}
+.span {
+  font-weight: 500;
+  font-family: var(--font-poppins);
+}
+.required1,
+.rectangle-div{
+  position: absolute;
+  top: 406px;
+  font-size: var(--font-size-base);
+}
+.rectangle-div {
+  left: 1px;
+  color: var(--color-slategray-300);
+  font-family: var(--font-yatra-one);
+}
+.required1 {
+  left: 147px;
+  font-weight: 500;
+  color: var(--color-slategray-200);
+}
+.ironing {
+  position: absolute;
+  top: 563px;
+  left: 11px;
+  border-radius: var(--br-11xs);
+  background: linear-gradient(
+    90deg,
+    #edebef,
+    rgba(237, 235, 239, 0.86) 11.56%,
+    rgba(237, 235, 239, 0.34)
+  );
+  box-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
+  border: 1px solid var(--color-whitesmoke);
+  box-sizing: border-box;
+  width: 348px;
+  height: 46px;
+}
+.laundry-item,
+.required2 {
+  position: absolute;
+  top: 533px;
+  font-size: var(--font-size-base);
+}
+.ironing{
+  left: 1px;
+  font-family: var(--font-yatra-one);
+  color: var(--color-slategray-300);
+}
+.required2 {
+  left: 64px;
+  font-weight: 500;
+  color: var(--color-slategray-200);
+}
+
+.view-bill {
+  position: absolute;
+  top: 675px;
+  left: 234px;
+  font-size: 22px;
+  font-family: var(--font-patrick-hand);
+  color: var(--color-white);
+  display: inline-block;
+  width: 90px;
+  height: 38px;
+  position: absolute;
+  top: 664px;
+  left: 208px;
+  border-radius: var(--br-16xl);
+  background-color: var(--color-slategray-100);
+  width: 122px;
+  height: 57px;
+}
+.pieces,
+.cloth,
+.wetdry-cleaning {
+  position: absolute;
+  top: 438px;
+  left: 11px;
+  border-radius: var(--br-11xs);
+  background: linear-gradient(
+    90deg,
+    #edebef,
+    rgba(237, 235, 239, 0.86) 11.56%,
+    rgba(237, 235, 239, 0.34)
+  );
+  box-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
+  border: 1px solid var(--color-whitesmoke);
+  box-sizing: border-box;
+  width: 348px;
+  height: 46px;
+}
+.pieces,
+.cloth {
+  top: 314px;
+}
+.cloth {
+  top: 203px;
+}
+.laundry-child2{
+  position: absolute;
+  top: 173px;
+  left: 4px;
+  font-size: var(--font-size-lg);
+  font-family: var(--font-yatra-one);
+  color: var(--color-slategray-300);
+  display: inline-block;
+  width: 170px;
+  height: 24px;
+}
+
+.add {
+  position: absolute;
+  top: 673px;
+  left: 95px;
+  font-size: 23px;
+  font-family: var(--font-patrick-hand);
+  color: var(--color-white);
+  display: inline-block;
+  width: 90px;
+  height: 38px;
+  position: absolute;
+  top: 664px;
+  left: 56px;
+  border-radius: var(--br-16xl);
+  background-color: var(--color-slategray-100);
+  width: 122px;
+  height: 57px;
+}
+.select,
+.yesno {
+  position: absolute;
+  top: 213px;
+  left: 31px;
+  font-size: var(--font-size-lg);
+  color: var(--color-thistle);
+}
+.yesno {
+  top: 571px;
+  left: 41px;
+}
+.vector-icon,
+.vector-icon2,
+.vector-icon4 {
+  position: absolute;
+  height: 4.86%;
+  width: 8.97%;
+  top: 92.06%;
+  right: 18.97%;
+  bottom: 3.08%;
+  left: 72.05%;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+}
+.vector-icon2,
+.vector-icon4 {
+  height: 4.44%;
+  width: 8.55%;
+  top: 92.21%;
+  right: 73.68%;
+  bottom: 3.35%;
+  left: 17.78%;
+}
+.vector-icon4 {
+  height: 4.03%;
+  width: 12.31%;
+  top: 92.89%;
+  right: 45.64%;
+  bottom: 3.08%;
+  left: 42.05%;
+}
+.home {
+  position: absolute;
+  top: 816px;
+  left: 69px;
+}
+.address,
+.profile {
+  position: absolute;
+  top: 817px;
+  left: 163px;
+}
+.profile {
+  top: 816px;
+  left: 281px;
+}
+.laundry {
+  position: relative;
+  background-color: var(--color-white);
+  width: 100%;
+  height: 844px;
+  overflow: hidden;
+  text-align: left;
+  font-size: var(--font-size-xs);
+  color: var(--color-dimgray);
+  font-family: var(--font-poppins);
+}
