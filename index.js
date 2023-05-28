@@ -1,5 +1,5 @@
 const express = require('express');
-const mysql = require('mysql');
+const mysql2 = require('mysql2');
 const path = require('path');
 const bodyParser = require('body-parser');
 const session = require('express-session');
@@ -22,10 +22,10 @@ app.use(
   })
 );
 
-const connection = mysql.createConnection({
+const connection = mysql2.createConnection({
   host: 'localhost',
   user: 'root',
-  password: 'ghanalm10',
+  password: 'suharak1357',
   database: 'banglore',
 });
 
@@ -162,14 +162,14 @@ app.get('/dry', function (req, res) {
 
 
 app.post('/dry', function (req, res) {
-    const { cloth, numb, wet, iron} = req.body;
+    const { cloth, numb, dry, iron} = req.body;
     const username = req.session.username;
     const sql = 'SELECT userid FROM users WHERE username = ?';
     connection.query(sql, [username], (err, userids) => {
-        if (cloth, numb, wet, iron) {
+        if (cloth, numb, dry, iron) {
             const sql2 = 'INSERT INTO laundry(userid, cloth, numb, dry, iron) VALUES (?, ?, ?, ?, ?)';
             const userid = userids[0].userid;
-            connection.query(sql2, [userid, cloth, numb, wet, iron], (err, result) => {
+            connection.query(sql2, [userid, cloth, numb, dry, iron], (err, result) => {
                 if (err) {
                     console.log(err);
                     res.redirect('/dry');
