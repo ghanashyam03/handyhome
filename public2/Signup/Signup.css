@@ -114,15 +114,10 @@
 }
 .sign-up {
   position: absolute;
+  top: 697px;
+  left: 176px;
   font-weight: 500;
   color: var(--color-white);
-  position: absolute;
-  top: 687px;
-  left: 130px;
-  border-radius: 23px;
-  background-color: var(--color-slategray-100);
-  width: 153px;
-  height: 44px;
 }
 .frame-div {
   position: absolute;
