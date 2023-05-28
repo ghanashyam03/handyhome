@@ -120,7 +120,7 @@ app.post('/adress', function (req, res) {
   const { name, phone, house, road, pin, state, city } = req.body;
   const username = req.session.username;
 
-  if (name && phone && house && road  && pin && state && city) {
+  if (name && phone && house && road && pin && state && city) {
     const sql = 'SELECT userid FROM users WHERE username = ?';
     connection.query(sql, [username], (err, userids) => {
       if (err) {
@@ -151,45 +151,45 @@ app.post('/adress', function (req, res) {
 });
 
 app.get('/home', function (req, res) {
-    console.log('GET /adress');
-    res.sendFile(path.join(__dirname, 'public2', 'Home', 'Home.html'));
-  });
+  console.log('GET /adress');
+  res.sendFile(path.join(__dirname, 'public2', 'Home', 'Home.html'));
+});
 app.get('/dry', function (req, res) {
-    console.log('GET /adress');
-    res.sendFile(path.join(__dirname, 'public2', 'laundry1', 'index.html'));
-  });
+  console.log('GET /adress');
+  res.sendFile(path.join(__dirname, 'public2', 'laundry1', 'index.html'));
+});
 
 
 
 app.post('/dry', function (req, res) {
-    const { cloth, numb, dry, iron} = req.body;
-    const username = req.session.username;
-    const sql = 'SELECT userid FROM users WHERE username = ?';
-    connection.query(sql, [username], (err, userids) => {
-        if (cloth, numb, dry, iron) {
-            const sql2 = 'INSERT INTO laundry(userid, cloth, numb, dry, iron) VALUES (?, ?, ?, ?, ?)';
-            const userid = userids[0].userid;
-            connection.query(sql2, [userid, cloth, numb, dry, iron], (err, result) => {
-                if (err) {
-                    console.log(err);
-                    res.redirect('/dry');
-                } else {
-                    console.log(result);
-                    req.session.info = true;
-                    res.redirect('/confirm');
-                }
-            });
+  const { cloth, numb, dry, iron } = req.body;
+  const username = req.session.username;
+  const sql = 'SELECT userid FROM users WHERE username = ?';
+  connection.query(sql, [username], (err, userids) => {
+    if (cloth, numb, dry, iron) {
+      const sql2 = 'INSERT INTO laundry(userid, cloth, numb, dry, iron) VALUES (?, ?, ?, ?, ?)';
+      const userid = userids[0].userid;
+      connection.query(sql2, [userid, cloth, numb, dry, iron], (err, result) => {
+        if (err) {
+          console.log(err);
+          res.redirect('/dry');
         } else {
-            res.redirect('/dry');
+          console.log(result);
+          req.session.info = true;
+          res.redirect('/confirm');
         }
-    });  
+      });
+    } else {
+      res.redirect('/dry');
+    }
+  });
 });
 
 
 app.get('/confirm', function (req, res) {
-    console.log('GET /adress');
-    res.sendFile(path.join(__dirname, 'public2', 'laundry', 'index.html'));
-  });
+  console.log('GET /adress');
+  res.sendFile(path.join(__dirname, 'public2', 'laundry', 'index.html'));
+});
 
 
 const port = 5000;
