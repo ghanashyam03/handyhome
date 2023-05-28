@@ -7,9 +7,13 @@
   font-family: var(--font-limelight);
   color: #ccc0dd;
 }
-.simple{
-  font-size: 10px;
-  color: #2e013d;
+.logo-removebg-preview-1-icon {
+  position: absolute;
+  top: 26px;
+  left: 16px;
+  width: 66px;
+  height: 93px;
+  object-fit: cover;
 }
 .home-child {
   position: absolute;
@@ -106,17 +110,17 @@
 .painting,
 .waste {
   position: absolute;
-  top: 434px;
-  left: 69px;
+  top: 12px;
+  left: 10px;
 }
 .laundry,
 .painting,
 .waste {
-  left: 241px;
+  left: 1px;
 }
 .painting,
 .waste {
-  top: 562px;
+  top: 564px;
   left: 80px;
 }
 .painting {
